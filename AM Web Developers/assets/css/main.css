@@ -64,7 +64,7 @@ body {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.03s;
 }
 
 a:hover {
@@ -326,7 +326,7 @@ h6 {
     align-items: right;
     justify-content: space-between;
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.03s;
   }
 
   .navmenu a i,
@@ -927,42 +927,80 @@ section,
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+/* About Section */
+.about {
+  background: linear-gradient(135deg, white 0%, white 100%);
+  padding: 60px 0;
+}
+
+.about .section-title h2 {
+  font-size: 36px;
+  color: var(--heading-color);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about .section-title p {
+  font-size: 18px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  margin-top: 90px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
 }
 
 .about .content p {
   margin-bottom: 30px;
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .about .content .about-btn {
-  padding: 8px 30px 9px 30px;
+  padding: 10px 35px;
   color: var(--accent-color);
   border-radius: 50px;
   transition: 0.3s;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   display: inline-flex;
   align-items: center;
   border: 2px solid var(--accent-color);
+
 }
 
 .about .content .about-btn i {
   font-size: 16px;
   padding-left: 5px;
+  transition: transform 0.3s ease;
 }
 
 .about .content .about-btn:hover {
   background: var(--accent-color);
-  color: var(--contrast-color);
+  color: #fff;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
+
+.about .content .about-btn:hover i {
+  transform: translateX(5px);
+}
+
+.about .icon-box {
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+  
+}
+
 
 .about .icon-box i {
   font-size: 40px;
@@ -978,13 +1016,18 @@ section,
 
 .about .icon-box h4 a {
   color: var(--heading-color);
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 .about .icon-box p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin-bottom: 0;
+}
+
+.about .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .about .icon-box:hover h4 a {
