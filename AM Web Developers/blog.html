@@ -2,44 +2,75 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>AM Web Designers and Developers</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>AM Web Designers and Developers</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
+
+  <style>
+    .card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .read-more {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    .date {
+      font-size: 0.85rem;
+      color: #6c757d;
+    }
+  </style>
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <img src="assets/img/logo.png" alt="">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -47,31 +78,133 @@
           <li><a href="index.html">Services</a></li>
           <li><a href="seo.html">SEO</a></li>
           <li><a href="portfolio-details.html">Portfolio</a></li>
-          <li><a href="">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="index.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <div class="header-social-links">
-        <a href="https://www.google.com/search?hl=en-LK&gl=lk&q=AM+Web+Designers+and+Developers,+Sri+Lanka,+AM+Web+Designers+and+Developers+E+130,+20th+Lane,+Isurupura+Rd,+Malabe+10115&ludocid=3467951480954684987&lsig=AB86z5XS3YbHfLbGcvQ0e1JxGMxV#lrd=0x3ae25b2295da978f:0x3020a37f7898063b,3"
-          class="google"><i class="bi bi-google"></i></a>
-        <a href="https://web.facebook.com/amwebdesignersanddevelopers/" class="facebook"><i
-            class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/amwebdesigners/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/amwebdesigners/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://wa.me/944773210212" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
-      </div>
-
     </div>
   </header>
 
   <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade">
+      <div class="container position-relative">
+        <h1>Blog</h1>
+        <p>Check out our latest blogs on SEO, Web Design, and more</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Blog</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
 
+    <!-- Blog Posts -->
+    <div class="container mt-5">
+      <div class="row">
 
+        <!-- Blog Card 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">10 Tips to Boost Your SEO Rankings</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog1-short">Learn the best practices for improving your website's SEO rankings, from keyword
+                optimization to mobile responsiveness...</p>
+              <p id="blog1-full" class="d-none">In this blog, we delve deeper into SEO best practices. We start with
+                keyword optimization and discuss the importance of mobile-friendly design, fast page loading times, and
+                high-quality backlinks...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog1')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-body">
+              <h5 class="card-title">How Web Design Impacts SEO Performance</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog2-short">Discover how your website's design and user experience can affect your search engine
+                rankings...</p>
+              <p id="blog2-full" class="d-none">Web design plays a crucial role in SEO. A user-friendly design with
+                proper structure not only engages visitors but also helps search engines understand your content. This
+                blog explores...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog2')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-body">
+              <h5 class="card-title">Best SEO Tools for 2024</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog3-short">Get to know the top SEO tools you need to improve your website's search performance...
+              </p>
+              <p id="blog3-full" class="d-none">SEO tools are essential for analyzing and improving your website. In
+                this post, we cover some of the best tools available in 2024 to help with keyword research, backlink
+                analysis, and technical SEO...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog3')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <!-- Blog Card 4 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Optimization for SEO Success</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog4-short">Learn how mobile optimization can significantly improve your website's SEO rankings...
+              </p>
+              <p id="blog4-full" class="d-none">Mobile optimization is no longer optional for SEO success. We explore
+                the best ways to make your website mobile-friendly and how this affects your overall rankings...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog4')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 5 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-body">
+              <h5 class="card-title">Content Strategies for Better SEO</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog5-short">Explore the best content strategies that can enhance your SEO efforts...</p>
+              <p id="blog5-full" class="d-none">Content is king, but not all content is created equal. Learn how to
+                create high-quality, relevant content that attracts search engines and users alike...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog5')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 6 -->
+        <div class="col-md-4">
+          <div class="card mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-body">
+              <h5 class="card-title">Technical SEO: A Beginner's Guide</h5>
+              <p class="date">August 16, 2024</p>
+              <p id="blog6-short">Understanding the technical aspects of SEO is crucial for success in search
+                rankings...</p>
+              <p id="blog6-full" class="d-none">Technical SEO ensures that search engines can crawl and index your
+                website efficiently. Learn the basics of technical SEO, from sitemaps to robots.txt...</p>
+              <a href="#" class="read-more" onclick="toggleBlog('blog6')">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
   </main>
-
 
   <footer id="footer" class="footer dark-background">
 
@@ -166,6 +299,23 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Read More Function -->
+  <script>
+    function toggleBlog(blogId) {
+      const shortText = document.getElementById(blogId + '-short');
+      const fullText = document.getElementById(blogId + '-full');
+      const readMoreLink = shortText.nextElementSibling;
+
+      if (fullText.classList.contains('d-none')) {
+        fullText.classList.remove('d-none');
+        readMoreLink.textContent = 'Read Less';
+      } else {
+        fullText.classList.add('d-none');
+        readMoreLink.textContent = 'Read More';
+      }
+    }
+  </script>
 
 </body>
 
