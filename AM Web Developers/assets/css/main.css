@@ -34,6 +34,7 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+
 .light-background {
   --background-color: #f0f8ff;
   --surface-color: #ffffff;
@@ -1039,7 +1040,9 @@ section,
 --------------------------------------------------------------*/
 .clients {
   padding: 10px 0;
-  background-color: #e0f7fa; /* Light blue background */
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px ; 
 }
 
 .clients .swiper-wrapper {
