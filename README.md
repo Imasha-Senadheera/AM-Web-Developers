@@ -1,9 +1,5 @@
 # AM Web Designers and Developers 🖥️
 
-Welcome to **AM Web Designers and Developers** — a website designed to showcase the company's web design and development services. The site reflects 24 years of expertise in providing high-quality, budget-friendly web solutions with a focus on client satisfaction and timely delivery.
-
-## Website Overview
-
 This website serves as the official online presence of **AM Web Designers and Developers**, showcasing our services, client testimonials, portfolio, and much more. It was built using modern web development technologies to ensure responsiveness, aesthetics, and functionality.
 
 ### Key Features
